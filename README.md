@@ -16,11 +16,11 @@ docker run \
     -e POSTGRES_DB="osm" \
     -e POSTGRES_USER="osm" \
     -e POSTGRES_PASSWORD="osm" \
-    -d openmaptiles/postgis
+    -d sophox/postgis
 ```
 
 ## Build
 
 ```bash
-docker build -t openmaptiles/postgis .
+docker build -t sophox/postgis .
 ```
