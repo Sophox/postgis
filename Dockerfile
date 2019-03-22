@@ -1,4 +1,4 @@
-FROM mdillon/postgis:11
+FROM mdillon/postgis:9.6
 
 LABEL MAINTAINER "Yuri Astrakhan <YuriAstrakhan@gmail.com>"
 
